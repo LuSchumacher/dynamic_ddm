@@ -1,0 +1,2 @@
+model_checkpoint_path: "full_dynamic_dm_3200_factorized_09_Sept"
+all_model_checkpoint_paths: "full_dynamic_dm_3200_factorized_09_Sept"
