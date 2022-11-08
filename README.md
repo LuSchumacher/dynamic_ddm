@@ -1,2 +1,2 @@
 # Dynamic Diffusion Model
-![](animation.gif)
+![](parameter_recovery_animation.gif)
