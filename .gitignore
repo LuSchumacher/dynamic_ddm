@@ -13,3 +13,4 @@ data/sim_data/static_dm_data_100.pkl
 benchmarks/stan/dynamic_stan_fits/
 data/offline_data/
 data/offline_data_new/
+data/offline_data_new_2/
