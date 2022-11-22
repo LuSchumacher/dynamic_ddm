@@ -1,2 +1,2 @@
-model_checkpoint_path: "full_dynamic_dm_3200_factorized_09_Sept"
-all_model_checkpoint_paths: "full_dynamic_dm_3200_factorized_09_Sept"
+model_checkpoint_path: "gpddm_3200_joint_offline_cosineDecay_newData8000_2"
+all_model_checkpoint_paths: "gpddm_3200_joint_offline_cosineDecay_newData8000_2"

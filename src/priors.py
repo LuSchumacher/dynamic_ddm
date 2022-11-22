@@ -14,9 +14,12 @@ def diffusion_prior(batch_size, n_cond=4):
     """
 
     rng = default_rng()
-    v = rng.gamma(2.5, 1/2.0, (batch_size, n_cond))
+    # v = rng.gamma(2.5, 1/2.0, (batch_size, n_cond))
     a = rng.gamma(4.0, 1/3.0, batch_size)
     ndt = rng.gamma(1.5, 1/5.0, batch_size)
+    v = rng.gamma(5, 1/3.0, (batch_size, n_cond))
+    # a = rng.gamma(15.0, 1/10.0, batch_size)
+    # ndt = rng.gamma(5.0, 1/15.0, batch_size)
     return np.c_[v, a, ndt]
 
 # def diffusion_prior_gp(batch_size, n_cond=4):
