@@ -5,7 +5,9 @@ This repository contains all data and code from the paper "Neural Superstatistic
 In this work, we propose to augment mechanistic cognitive models with a temporal dimension and estimate the resulting dynamics from a superstatistics perspective. In its simplest form, such a model entails a hierarchy between a low-level observation model and a high-level transition model. The observation model describes the local behavior of a system, and the transition model specifies how the parameters of the observation model evolve over time.
 
 ### Transition model
-Simple diffusion decision model
+$\mathcal{T}(\theta_{0:t-1}, \eta, \xi_t) \quad\, \text{with}\quad \xi_t \sim p(\xi)$
+Simple diffusion decision model (DDM)
+
 
 
 ![](param_recovery_animation.gif)
