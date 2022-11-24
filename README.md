@@ -13,4 +13,6 @@ $\theta_t = \mathcal{T}(\theta_{0:t-1}, \eta, \xi_t) \quad \text{with}\quad \xi_
 
 ### Low-Level Parameter Recovery
 The following animation shows the parameter recovery performance of the GP-DDM model over all 3200 time steps.
+
+
 ![](param_recovery_animation.gif)
