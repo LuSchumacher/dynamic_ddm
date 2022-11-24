@@ -8,7 +8,7 @@ In this work, we propose to augment mechanistic cognitive models with a temporal
 $x_t = \mathcal{G}(x_{1:t-1}, \theta_t, z_t) \quad \text{with}\quad z_t \sim p(z)$
 
 ### High-Level Transition Model
-$\theta_t = \mathcal{T}(\theta_{0:t-1}, \eta, \xi_t) \quad\, \text{with}\quad \xi_t \sim p(\xi)$
+$\theta_t = \mathcal{T}(\theta_{0:t-1}, \eta, \xi_t) \quad \text{with}\quad \xi_t \sim p(\xi)$
 
 
 
