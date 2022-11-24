@@ -1,2 +1,0 @@
-model_checkpoint_path: "gpddm_3200_joint_offline_cosineDecay_newData8000_2"
-all_model_checkpoint_paths: "gpddm_3200_joint_offline_cosineDecay_newData8000_2"
