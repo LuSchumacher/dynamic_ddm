@@ -3,51 +3,25 @@ from numpy.random import default_rng
 
 def diffusion_prior(batch_size, n_cond=4):
     """ TODO
-
     Parameters
     ----------
     TODO
-
     Returns
     -------
     TODO
     """
-
     rng = default_rng()
-    # v = rng.gamma(2.5, 1/2.0, (batch_size, n_cond))
     a = rng.gamma(4.0, 1/3.0, batch_size)
     ndt = rng.gamma(1.5, 1/5.0, batch_size)
     v = rng.gamma(5, 1/3.0, (batch_size, n_cond))
-    # a = rng.gamma(15.0, 1/10.0, batch_size)
-    # ndt = rng.gamma(5.0, 1/15.0, batch_size)
     return np.c_[v, a, ndt]
-
-# def diffusion_prior_gp(batch_size, n_cond=4):
-#     """ TODO
-
-#     Parameters
-#     ----------
-#     TODO
-
-#     Returns
-#     -------
-#     TODO
-#     """
-
-#     rng = np.random.default_rng()
-#     v = rng.gamma(2.5, 1/2.0, (batch_size, n_cond))
-#     a = rng.normal(1.5, 0.3, batch_size)
-#     ndt = rng.normal(0.5, 0.1, batch_size)
-#     return np.c_[v, a, ndt]
 
 
 def random_walk_prior(batch_size, n_params, alpha=1., beta=25.):
     """ TODO
-
     Parameters
     ----------
     TODO
-
     Returns
     -------
     TODO
