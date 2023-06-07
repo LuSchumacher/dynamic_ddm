@@ -3,7 +3,7 @@ import tensorflow_probability as tfp
 import numpy as np
 tfd = tfp.distributions
 
-def squared_dist(x): 
+def squared_dist(x):
     """Efficiently computes the squared pairwise distance between the element of the vector x."""
     expanded_a = tf.expand_dims(x, 1)
     expanded_b = tf.expand_dims(x, 0)
@@ -26,5 +26,3 @@ def prior_length_scale(lower=0.1, upper=10.):
 
 def build_distance_matrix(T):
     return squared_dist(np.linspace(0, 1, T)[:, np.newaxis].astype(np.float32))
-
-
